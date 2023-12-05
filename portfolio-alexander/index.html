@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link id="theme-stylesheet" rel="stylesheet" href="styles-dark.css">
+    <link rel="icon" type="image/x-icon" href="img\favicon.png"/>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alexander</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <!-- Botón de Cambio de Modo Claro/Oscuro -->
+            <label class="switch" id="theme-toggle">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>   
+
+</body>
+</html>
+
+</html>
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.jpeg" alt="">
+            </div>
+            <h1>ALEXANDER GUTIERREZ</h1>
+            <h2>Analista de Datos - Ingenieria Industrial</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-alexander-guti%C3%A9rrez-879646127/" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.xing.com/profile/Alexander_Gutierrez034308/cv" title="Xing"><i class="fa-brands fa-xing"></i></a>
+                <a href="https://www.figma.com/tu_perfil" title="Figma"><i class="fa-brands fa-figma"></i></a>
+                <a href="https://wa.me/0050660927243" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alexander Gutierrez.</span> Me considero una persona con pensamiento lógico, analítico y estructurado, con tendencia a realizar las cosas de forma ordenada. Me gusta organizar y planificar todos los asuntos en los que estoy involucrado. Critico con lo que no tiene una justificación lógica. Tiendo a ser competitivo e individualista.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            08-OCT-1993
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (506) 6092 7243
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alexanderjg93@gmail.com
+                        </li>
+                        <li>
+                            <strong>Sitio web</strong>
+                            www.portfolioalexander.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San José, Costa Rica
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span>DATOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>DISEÑO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>TECH</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <span>CAFÉ</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>APRENDER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .download-link {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                </style>
+                <button class="download-button">
+                    <a class="download-link" download="Alexander Gutierrez - CV.pdf" href="Alexander Gutierrez - CV.pdf">Descargar CV <i class="fa-solid fa-download"></i></a>
+                    <span class="overlay"></span>
+                </button>        
+                </div> 
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Competencias técnicas -->
+                <div class="col">
+                    <h3>Competencias técnicas</h3>
+                    <div class="skill">
+                        <span>Microsoft Power Query</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microsoft Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tableau</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microsoft Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación efectiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pensamiento analítico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Orientación a resultados</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia Profesional</h3>
+                    <div class="item izq">
+                        <h4>Analista de Inventarios y Logistica Internacional</h4>
+                        <span class="casa">Grupo Petrop | Costa Rica</span>
+                        <span class="fecha">2022 - Actualmente</span>
+                        <p>Como analista de datos, me especializo en el análisis de gastos de importaciones, gestión de inventarios y optimización de procesos de abastecimiento. Realizo costeos de importaciones para todo el grupo y colaboro estrechamente con el área comercial en el análisis de tendencias de precios de proveedores. Además, gestiono importaciones en la división de Petrolubricantes, negociando con proveedores logísticos y agencias aduanales para obtener las mejores opciones para la compañía.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Analista de inventarios</h4>
+                        <span class="casa">El Colono Agropecuario S. A. | Nicaragua</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Como analista de inventarios, mi rol implica la proyección de compras y el pronóstico de la demanda, así como la colaboración directa con la gerencia financiera para la entrega de informes estadísticos. También me encargo del análisis de inventarios y de las importaciones. Además, sugiero mejoras en los procesos operacionales y mejorar la eficiencia en la toma de decisiones.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Asistente de auditoría interna</h4>
+                        <span class="casa">E. Chamorro Industrial S. A. | Nicaragua</span>
+                        <span class="fecha">2015 - 2017</span>
+                        <p>Asegurar la integridad y eficiencia de los procesos empresariales. Esto implica llevar a cabo análisis exhaustivos de los procedimientos de control interno, así como realizar análisis de inventarios para mantener un registro preciso de los bienes y productos de la empresa.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Desarrollo Académico</h3>
+                    <div class="item der">
+                        <h4>Fundamentos profesionales del análisis de datos</h4>
+                        <span class="casa">Microsoft y LinkedIn Learning</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Análisis y visualización de datos con Power BI</h4>
+                        <span class="casa">Grow Up - Costa Rica</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administración de bases de datos</h4>
+                        <span class="casa">Fundación Carlos Slim</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Análisis de datos</h4>
+                        <span class="casa">Fundación Carlos Slim - Aprende.org</span>
+                        <span class="fecha">2019</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Cadena de suministros y costos del autotransporte</h4>
+                        <span class="casa">Fundación Carlos Slim - Aprende.org</span>
+                        <span class="fecha">2019</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ingeniería Industrial</h4>
+                        <span class="casa">Universidad de Managua - Nicaragua</span>
+                        <span class="fecha">2017</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+          <h2>PORTFOLIO</h2>
+          <div class="galeria">
+            <div class="proyecto">
+              <img src="img/p1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI - Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</span></p>
+              </div>
+            </div>
+      
+            <div class="proyecto">
+              <img src="img/p2.jpg" alt="">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI</span></p>
+                <div class="project-modal">
+                  <p>Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="proyecto">
+              <img src="img/p3.png" alt="">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI</span></p>
+                <div class="project-modal">
+                  <p>Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="proyecto">
+              <img src="img/p4.png" alt="">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI</span></p>
+                <div class="project-modal">
+                  <p>Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="proyecto">
+              <img src="img/p5.jpg" alt="">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI</span></p>
+                <div class="project-modal">
+                  <p>Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="proyecto">
+              <img src="img/p6.jpg" alt="">
+              <div class="overlay">
+                <h3>Reporte de Análisis de Datos de Salud</h3>
+                <p><span class="overlay-title">Power BI</span></p>
+                <div class="project-modal">
+                  <p>Presentación de un tablero con indicadores de salud, segmentación de datos por grupos de edad o enfermedades específicas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+  <!-- Modal -->
+<div id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-info">
+        <div class="modal-title"></div>
+        <div class="modal-summary"></div>
+        <div class="modal-image-container">
+          <img class="modal-image" src="" alt="">
+        </div>
+      </div>
+      <div class="modal-actions">
+        <a class="modal-button" href="#">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+<!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Direcci ón: San José, Costa Rica
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Teléfono: (506) 6092 7243
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: alexanderjg93@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/jos%C3%A9-alexander-guti%C3%A9rrez-879646127/" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.xing.com/profile/Alexander_Gutierrez034308/cv" title="Xing"><i class="fa-brands fa-xing"></i></a>
+        <a href="https://www.figma.com/tu_perfil" title="Figma"><i class="fa-brands fa-figma"></i></a>
+        <a href="https://wa.me/0050660927243" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="copyright">
+    <p class="copyright-text">
+        Copyright &copy; Alexander Gutiérrez 2023
+    </p>
+</div>
+
+</footer>
+      
+<script src="script.js"></script>
+</body>
+</html>
