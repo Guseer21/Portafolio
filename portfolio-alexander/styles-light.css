@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: red;
+        color: #EEE;
+    }
+
+    .inicio {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 1)),
+    url(img/25550.jpg) !important;
+    }
+
+    .sobremi {
+        background-color: #333 !important;
+        color: #EEE !important;
+    }
+
+    .skills {
+        background-color: #333 !important;
+        color: #EEE !important;
+    }
+
+    .curriculum {
+        background-color: #333 !important;
+        color: #EEE !important;
+    }
+
+    .fila {
+        color: #EEE !important;
+    }
+
+    .item {
+        background-color: rgba(255, 255, 255, .5) !important;
+        color: #EEE !important;
+    }
+
+    .item p {
+        color: #EEE !important;
+    }
+
+    .portfolio {
+        background-color: #333 !important;
+        color: #EEE !important;
+    }
+
+    .contacto {
+        background-color: #333 !important;
+        color: #EEE !important;
+    }
+
+    .contacto .col input, .contacto .col textarea {
+        background-color: rgba(255, 255, 255, .5) !important;
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -527,7 +581,7 @@ input:checked + .slider:before {
     color: #1e2326; /* Color del título secundario en modo claro */
 }
 
-.curriculum .fila .izquierda {
+.curriculum .fila .b {
     border-right: 2px solid #f0f0f0; /* Color del borde en modo claro */
 }
 
